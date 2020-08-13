@@ -1,11 +1,11 @@
 var awsIot = require('aws-iot-device-sdk');
 
 var fireDetector = awsIot.device({
-  keyPath: "./../credentials/detector/1a5866a5c8-private.pem.key",
-  certPath: "./../credentials/detector/1a5866a5c8-certificate.pem.crt",
-  caPath: "./../credentials/detector/AmazonRootCA1.pem",
+  keyPath: "./../credentials/detector/...",
+  certPath: "./../credentials/detector/...",
+  caPath: "./../credentials/detector/...",
   clientId: "fireDetector1",
-  host: "a2z27yuzjpfxe8-ats.iot.ap-northeast-2.amazonaws.com"
+  host: "..."
 });
 
 fireDetector.on('connect', function () {
