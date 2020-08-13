@@ -1,11 +1,11 @@
 var awsIot = require('aws-iot-device-sdk');
 
 var fireManagementSys = awsIot.device({
-    keyPath: "./../credentials/management/aa064b8b67-private.pem.key",
-    certPath: "./../credentials/management/aa064b8b67-certificate.pem.crt",
-    caPath: "./../credentials/management/AmazonRootCA1.pem",
+    keyPath: "./../credentials/management/...",
+    certPath: "./../credentials/management/...",
+    caPath: "./../credentials/management/...",
     clientId: "fireManagementSys",
-    host: "a2z27yuzjpfxe8-ats.iot.ap-northeast-2.amazonaws.com"
+    host: "..."
 });
 
 fireManagementSys.on('connect', function () {
