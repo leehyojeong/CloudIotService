@@ -34,3 +34,17 @@ sudo apt install mosquitto
 - 인바운드 규칙 편집으로 EC2 인스턴스의 보안그룹을 재설정한다.
 ![image](https://user-images.githubusercontent.com/39904216/90111209-3fde1b00-dd89-11ea-965d-dac9f94f9afb.png)
 ![image](https://user-images.githubusercontent.com/39904216/90111219-479dbf80-dd89-11ea-8dcb-56b1cec11b0a.png)
+
+### mosquitto_pub & mosquitto_sub 명령어로 MQTT broker 실행 확인
+- Mosquitto Broker 서버 커맨드 창
+```
+mosquitto -v
+```
+- subscribe 커맨드 창
+```
+mosquitto_sub -h (호스트) -t (토픽명)
+```
+- publish 커맨드 창
+```
+mosquitto_pub -h (호스트) -t (토픽명) -m (메세지)
+```
