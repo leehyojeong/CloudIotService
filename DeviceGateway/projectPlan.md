@@ -63,3 +63,6 @@
   - 정책에서 fire/alert/* 를 사용하여 fire/alert/detector1, fire/alert/detector2 ... 와 같이 여러 개의 사물로 publish할 수 있다.
   
   ![image](https://user-images.githubusercontent.com/39904216/90130588-aec96d00-dda5-11ea-950e-5e9bcb5c1ec7.png)
+
+### 정책 설명
+- 링크 : https://github.com/leehyojeong/CloudIotService/blob/master/DeviceGateway/Policies.md
