@@ -1,11 +1,11 @@
 var awsIot = require('aws-iot-device-sdk');
 
 var fireSprinkler = awsIot.device({
-  keyPath: "./../credentials/sprinkler/ad4cbc490a-private.pem.key",
-  certPath: "./../credentials/sprinkler/ad4cbc490a-certificate.pem.crt",
-  caPath: "./../credentials/sprinkler/AmazonRootCA1.pem",
+  keyPath: "./../credentials/sprinkler/...",
+  certPath: "./../credentials/sprinkler/...",
+  caPath: "./../credentials/sprinkler/...",
   clientId: "fireSprinkler1",
-  host: "a2z27yuzjpfxe8-ats.iot.ap-northeast-2.amazonaws.com"
+  host: "..."
 });
 
 fireSprinkler.on('connect', function () {
